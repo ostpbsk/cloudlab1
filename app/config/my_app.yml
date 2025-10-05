@@ -1,2 +1,2 @@
 database:
-  uri: "mysql+pymysql://root:12345@localhost:3306/lab4database"
+  uri: "mysql+pymysql://admin:Manders19985!@databaselab1.crucgc4aoiae.eu-north-1.rds.amazonaws.com:3306/cloudDB"
