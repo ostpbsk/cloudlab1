@@ -19,7 +19,7 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} << 'EOF'
             cd /home/ubuntu/lab-4-databases/app
-            git pull
+            git pull origin main
             cd app
             source venv/bin/activate
             cd lab-4-databases/app
